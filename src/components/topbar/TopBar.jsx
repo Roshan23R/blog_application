@@ -8,7 +8,6 @@ export default function TopBar() {
             <i className="topIcon fa-brands fa-linkedin"></i>
             <i className="topIcon fa-brands fa-square-instagram"></i>
             <i className="topIcon fa-brands fa-square-facebook"></i>
-
           </div>
           <div className='topCenter'>
               <ul className="topList">
