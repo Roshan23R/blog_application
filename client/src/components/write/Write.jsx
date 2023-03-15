@@ -8,9 +8,11 @@ export default function Write() {
                   <label htmlFor="fileInput">
                       <i class="fa-regular fa-plus"></i>
                   </label>
-                  <input type="file" id="fileInput" style={{
-                      display: "none"
-                  }} />
+                  <input type="file" id="fileInput"
+                    //   style={{
+                    //   display: "none"
+                  //   }} 
+                  />
                   <input type="text" placeholder="title"/>
                 </div>
             </form>
