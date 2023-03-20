@@ -47,7 +47,7 @@ export default function TopBar() {
       <div className="topRight">
         {user ? <img
           className="topImg"
-          src="https://images.pexels.com/photos/839011/pexels-photo-839011.jpeg?auto=compress&cs=tinysrgb&w=400"
+          src={user.profilePic}
           alt=""
         /> : (
           <ul className="topList">
