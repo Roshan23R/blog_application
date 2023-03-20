@@ -7,6 +7,7 @@
 ## Technologies used
 
 1. React
+2. Context API
 2. NodeJS
 3. ExpressJs
 4. Mongodb
