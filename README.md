@@ -1,6 +1,6 @@
 # Blog Application - Kalam
 
-### Kalam is an application which is developed to write blogs related to project, research done in specific domain, sharing topic among college student community. 
+Kalam is an application which is developed to write blogs related to project, research done in specific domain, sharing topic among college student community. 
 
 
 #
