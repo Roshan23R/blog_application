@@ -8,7 +8,7 @@ import Register from "./pages/register/Register";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 
 function App() {
-  const currentUser = true;
+  const currentUser = false;
   return (
     <BrowserRouter>
         <TopBar />
