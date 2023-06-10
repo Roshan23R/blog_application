@@ -14,7 +14,7 @@
   "scripts": {
     "start": "nodemon index.js"
   },
-  "author": "",
+  "author": "Rakesh Roushan",
   "license": "ISC",
-  "description": ""
+  "description": "College Blog Application"
 }

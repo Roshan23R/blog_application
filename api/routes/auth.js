@@ -7,7 +7,7 @@ router.post("/register", async (req, res) => {
     try {
         const salt = await bcrypt.genSalt(10);
         const hashedPassword = await bcrypt.hash(req.body.password, salt);
-        console.log(req.body);
+        // console.log(req.body);
         const newUser = new User({
             username: req.body.username,
             email: req.body.email,
@@ -33,7 +33,7 @@ router.post("/login", async (req, res) => {
     const validated = await bcrypt.compare(req.body.password, user.password);
     !validated && res.status(400).json("Wrong credentials!");
 
-    console.log(user._doc);
+    // console.log(user._doc);
     const { password, ...others } = user._doc;
     res.status(200).json(others);
   } catch (err) {
